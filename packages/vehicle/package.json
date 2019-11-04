@@ -1,0 +1,7 @@
+{
+    "name": "vehicle",
+    "private": true,
+    "dependencies": {
+        "colors": "latest"
+    }
+}

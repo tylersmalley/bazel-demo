@@ -1,0 +1,6 @@
+load("//tools:defaults.bzl", "ts_library")
+
+ts_library(
+    name = "vehicle",
+    srcs = glob(["*.ts"]),
+)

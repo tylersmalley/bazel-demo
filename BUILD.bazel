@@ -1,0 +1,9 @@
+load("@npm//http-server:index.bzl", "http_server")
+
+http_server(
+    name = "server",
+    data = [
+
+    ],
+    args = ["."],
+)

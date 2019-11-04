@@ -1,0 +1,18 @@
+/**
+ * Root tsconfig file for use in all tests.
+ */
+ {
+    "extends": "./tsconfig.json",
+    "compilerOptions": {
+      "types": ["node"],
+      "plugins": [{
+          "name": "@bazel/tsetse",
+          "disabledRules": ["must-use-promises"]
+      }]
+    },
+    "bazelOptions": {
+      "suppressTsconfigOverrideWarnings": true,
+      "devmodeTargetOverride": "es5"
+    }
+  }
+  
